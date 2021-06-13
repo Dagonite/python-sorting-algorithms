@@ -1,7 +1,9 @@
 # insertion_sort.py
-"""Insertion sort consists of two nested loops. As such, the average runtime is still O(n^2). The worst-case is a 
-reverse order array which is still O(n^2). The best case is when the array is already sorted as the inner loop is never 
-executed, resulting in an O(n) runtime. In practise, insertion sort is usually quicker than bubble sort."""
+"""
+Worst complexity:   n ** 2
+Average complexity: n ** 2
+Best complexity:    n
+"""
 
 
 def insertion_sort(items):

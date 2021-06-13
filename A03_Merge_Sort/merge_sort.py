@@ -1,11 +1,9 @@
 # merge_sort.py
-"""The merge() function has a linear runtime. It receives two arrays whose combined length is at most n (the length of 
-the original input array), and it combines both arrays by looking at each element at most once. This leads to a runtime 
-complexity of O(n).
-
-The second step splits the input array recursively and calls merge() for each half. Since the array is halved until a 
-single element remains, the total number of halving operations performed by this function is log2n. Since merge() is 
-called for each half, there is a total runtime of O(nlog2n)."""
+"""
+Worst complexity:   n * log(n)
+Average complexity: n * log(n)
+Best complexity:    n * log(n)
+"""
 
 
 def merge(left, right):

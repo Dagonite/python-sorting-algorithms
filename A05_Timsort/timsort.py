@@ -1,10 +1,9 @@
 # timsort.py
-"""On average, the complexity of timsort is O(nlog2n), just like merge sort and quicksort. The logarithmic part comes 
-from doubling the size of the run to perform each linear merge operation.
-
-Timsort performs exceptionally well on already-sorted or close-to-sorted lists, leading to a best-case scenario of O(n). 
-In this case, timsort clearly beats merge sort and matches the best-case scenario for Quicksort. But the worst case for 
-timsort is also O(nlog2n), which surpasses Quicksort's O(n^2)."""
+"""
+Worst complexity:   n*log(n)
+Best complexity:    n
+Average complexity: n*log(n)
+"""
 
 
 def merge(left, right):

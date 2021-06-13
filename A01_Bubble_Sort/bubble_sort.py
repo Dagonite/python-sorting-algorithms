@@ -1,9 +1,9 @@
 # bubble_sort.py
-"""Bubble sort consists of two nested for loops in which the algorithm performs n-1 comparisons, then n-2 comparisons,
-and so on until the final comparison is done. This comes at a total of n(n-1)/2 comparisons. This simplifies down to
-n^2-n which can be further simplified, leaving bubble sort with an average and worst-case complexity of O(n^2). In cases
-where the algorithm receives an array that's already sorted, the runtime complexity comes down to O(n) as the algorithm
-will not needed to visit any element more than once."""
+"""
+Worst complexity:   n ** 2
+Average complexity: n ** 2
+Best complexity:    n
+"""
 
 
 def bubble_sort(items):
