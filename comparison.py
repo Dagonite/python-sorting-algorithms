@@ -5,7 +5,6 @@ import random
 import time
 import importlib
 
-
 algorithms = [
     sorted,
 ]
