@@ -32,10 +32,10 @@ def siftdown(items, start, end):
 
 
 if __name__ == "__main__":
-    import random
+    from random import randint
 
     from timing import timed_func
 
     heapsort = timed_func(heapsort)
-    items = [random.randint(1, 1000) for _ in range(8000)]
+    items = [randint(1, 1000) for _ in range(8000)]
     print(heapsort(items)[1])

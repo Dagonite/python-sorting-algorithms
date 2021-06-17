@@ -72,12 +72,14 @@ def tree_sort(items):
     tree = Tree()
     for i in items:
         tree.add(i)
+    return tree
 
 
 if __name__ == "__main__":
-    import time, random
+    from random import randint
+    from time import perf_counter
 
-    items = [random.randint(1, 1000) for _ in range(5000)]
-    start = time.perf_counter()
+    items = [randint(1, 1000) for _ in range(5000)]
+    start = perf_counter()
     tree_sort(items)
-    print(time.perf_counter() - start)
+    print(perf_counter() - start)

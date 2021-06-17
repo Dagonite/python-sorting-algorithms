@@ -21,10 +21,10 @@ def bubble_sort(items):
 
 
 if __name__ == "__main__":
-    import random
+    from random import randint
 
     from timing import timed_func
 
     bubble_sort = timed_func(bubble_sort)
-    items = [random.randint(1, 1000) for _ in range(5000)]
+    items = [randint(1, 1000) for _ in range(5000)]
     print(bubble_sort(items)[1])

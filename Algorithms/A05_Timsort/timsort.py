@@ -73,10 +73,10 @@ def timsort(items):
 
 
 if __name__ == "__main__":
-    import random
+    from random import randint
 
     from timing import timed_func
 
     timsort = timed_func(timsort)
-    items = [random.randint(1, 1000) for _ in range(5000)]
+    items = [randint(1, 1000) for _ in range(5000)]
     print(timsort(items)[1])

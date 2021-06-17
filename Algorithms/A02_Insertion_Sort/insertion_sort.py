@@ -21,10 +21,10 @@ def insertion_sort(items):
 
 
 if __name__ == "__main__":
-    import random
+    from random import randint
 
     from timing import timed_func
 
     insertion_sort = timed_func(insertion_sort)
-    items = [random.randint(1, 1000) for _ in range(5000)]
+    items = [randint(1, 1000) for _ in range(5000)]
     print(insertion_sort(items)[1])

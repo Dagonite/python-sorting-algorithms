@@ -20,10 +20,10 @@ def stooge_sort(items, i=0, j=None):
 
 
 if __name__ == "__main__":
-    import random
+    from random import randint
 
     from timing import timed_func
 
     stooge_sort = timed_func(stooge_sort)
-    items = [random.randint(1, 1000) for _ in range(250)]
+    items = [randint(1, 1000) for _ in range(250)]
     print(stooge_sort(items)[1])

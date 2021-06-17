@@ -5,7 +5,7 @@ Average complexity: n * log(n)
 Best complexity:    n * log(n)
 """
 
-import random
+from random import randint
 
 
 def quicksort(items):
@@ -13,7 +13,7 @@ def quicksort(items):
         return items
 
     low, same, high = [], [], []
-    pivot = items[random.randint(0, len(items) - 1)]
+    pivot = items[randint(0, len(items) - 1)]
 
     for item in items:
         if item < pivot:
@@ -27,9 +27,9 @@ def quicksort(items):
 
 
 if __name__ == "__main__":
-    import time
+    from time import perf_counter
 
-    items = [random.randint(1, 1000) for _ in range(5000)]
-    start = time.perf_counter()
+    items = [randint(1, 1000) for _ in range(5000)]
+    start = perf_counter()
     quicksort(items)
-    print(time.perf_counter() - start)
+    print(perf_counter() - start)

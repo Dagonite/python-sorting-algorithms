@@ -45,9 +45,10 @@ def merge_sort(items):
 
 
 if __name__ == "__main__":
-    import random, time
+    from random import randint
+    from time import perf_counter
 
-    items = [random.randint(1, 1000) for _ in range(5000)]
-    start = time.perf_counter()
+    items = [randint(1, 1000) for _ in range(5000)]
+    start = perf_counter()
     merge_sort(items)
-    print(time.perf_counter() - start)
+    print(perf_counter() - start)
