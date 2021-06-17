@@ -15,6 +15,7 @@ algorithms.append(importlib.import_module("Algorithms.A03_Merge_Sort.merge_sort"
 algorithms.append(importlib.import_module("Algorithms.A04_Quicksort.quicksort").quicksort)
 algorithms.append(importlib.import_module("Algorithms.A05_Timsort.timsort").timsort)
 algorithms.append(importlib.import_module("Algorithms.A07_Heapsort.heapsort").heapsort)
+algorithms.append(importlib.import_module("Algorithms.A08_Tree_Sort.tree_sort").tree_sort)
 
 x = [random.randint(1, 1000) for _ in range(5000)]
 
