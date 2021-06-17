@@ -1,4 +1,3 @@
-# insertion_sort.py
 """
 Worst complexity:   n ** 2
 Average complexity: n ** 2

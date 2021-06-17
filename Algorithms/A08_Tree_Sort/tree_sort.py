@@ -1,4 +1,3 @@
-# tree_sort.py
 """
 Worst complexity:   n ** 2 (unbalanced) / n * log(n) (balanced)
 Average complexity: n * log(n)

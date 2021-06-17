@@ -1,5 +1,4 @@
-# comparison.py
-"""Script comparing the speeds of the different sorting algorithms."""
+"""Script comparing the speeds of multiple sorting algorithms."""
 
 from random import randint
 from time import perf_counter

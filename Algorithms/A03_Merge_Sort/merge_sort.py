@@ -1,4 +1,3 @@
-# merge_sort.py
 """
 Worst complexity:   n * log(n)
 Average complexity: n * log(n)

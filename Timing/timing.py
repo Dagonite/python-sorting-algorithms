@@ -1,4 +1,4 @@
-# timing.py
+"""File containing a timing function that can be used as a decorator."""
 
 import time
 

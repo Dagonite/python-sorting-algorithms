@@ -1,4 +1,3 @@
-# heapsort.py
 """
 Worst complexity:   O(nlog n)
 Best complexity:    O(nlog n) (distinct keys) or O(n) (equal keys)

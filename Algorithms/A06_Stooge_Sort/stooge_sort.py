@@ -1,4 +1,3 @@
-# stooge_sort.py
 """
 Worst complexity:   n ** (log3/log1.5)
 Best complexity:    n ** (log3/log1.5)

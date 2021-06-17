@@ -1,4 +1,3 @@
-# quicksort.py
 """
 Worst complexity:   n ** 2
 Average complexity: n * log(n)

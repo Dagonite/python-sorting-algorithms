@@ -1,4 +1,3 @@
-# timsort.py
 """
 Worst complexity:   n*log(n)
 Best complexity:    n
