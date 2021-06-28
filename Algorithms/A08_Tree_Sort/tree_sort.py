@@ -52,7 +52,7 @@ class Tree:
             return self._find(val, node.right)
 
     def delete_tree(self):
-        # garbage collector will do this for us.
+        # garbage collector will do this for us
         self.root = None
 
     def __str__(self):
